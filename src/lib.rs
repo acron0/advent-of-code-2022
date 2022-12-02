@@ -18,8 +18,12 @@ mod tests {
     }
 
     #[test]
-    fn day2() {
-        let result = day2::run();
-        assert_eq!(result, day2::EXPECTED_RESULT);
+    fn day2_1() {
+        assert_eq!(day2::run1(), day2::EXPECTED_RESULT1);
+    }
+
+    #[test]
+    fn day2_2() {
+        assert_eq!(day2::run2(), day2::EXPECTED_RESULT2);
     }
 }
