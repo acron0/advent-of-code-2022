@@ -1,6 +1,3 @@
-pub const INPUT: usize[] = [
-]
-
 pub fn run() -> usize {
     123
 }
